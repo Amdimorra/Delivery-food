@@ -1,84 +1,309 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <title>Delivery Food</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="page-wrapper">
-        <header class="header">
-            <div class="container">
-                <div class="header-box">
-                    <div class="header-logo logo">
-                        <img src="assets/logo.png" alt="logo">
-                    </div>
-                    <div class="header-controls">
-                        <button class="btn btn-primary">
-                            <img src="assets/user.png" alt="user">
-                            Войти
-                        </button>
-                        <button class="btn btn-outline">
-                            <img src="assets/shopping-cart.png" alt="user">
-                            Корзина
-                        </button>
-                    </div>
-                </div>
+      <header class="header">
+        <div class="container">
+          <div class="header-box">
+            <div class="header-logo logo">
+              <a href="/index.html"><img src="assets/logo.png" alt="logo" /></a>
             </div>
-        </header>
-    
-        <main class="main">
-            <section class="banner">
-                <div class="container">
-                    <div class="banner-item">
-                        <h2 class="banner-item--title">
-                            Онлайн-сервис <br> доставки еды на дом
-                        </h2>
-                        <p class="banner-item--subtitle">Блюда из любимого ресторана привезет курьер в перчатках, маске и с антисептиком</p>
-                    </div>
-                </div>
-            </section>
+            <div class="header-controls">
+              <button class="btn btn-primary">
+                <img src="assets/user.png" alt="user" />
+                Войти
+              </button>
+              <button class="btn btn-outline">
+                <img src="assets/shopping-cart.svg" alt="user" />
+                Корзина
+              </button>
+            </div>
+          </div>
+        </div>
+      </header>
 
-            <section class="products">
-                <div class="container">
-                    <div class="products-header">
-                        <h3 class="products-header--title">
-                            Рестораны
-                        </h3>
-                        <input placeholder="Поиск блюд и ресторанов" class="products-header--search" type="text">
-                    </div>
-                </div>
-            </section>
-        </main>
-    
-        <footer class="footer">
-            <div class="container">
-                <div class="footer-box">
-                    <div class="footer-logo logo">
-                        <img src="assets/logo.png" alt="logo">
-                    </div>
-                    <div class="footer-nav">
-                        <ul>
-                            <li>Ресторанам</li>
-                            <li>Курьерам</li>
-                            <li>Пресс-центр</li>
-                            <li>Контакты</li>
-                        </ul>
-                    </div>
-                    <div class="footer-social">
-                        <img src="assets/Group 1.png" alt="INST">
-                        <img src="assets/Group 2.png" alt="FB">
-                        <img src="assets/Group 3.png" alt="VK">
-                    </div>
-                </div>
+      <main class="main">
+        <section class="banner">
+          <div class="container">
+            <div class="banner-item">
+              <h2 class="banner-item--title">
+                Онлайн-сервис <br />
+                доставки еды на дом
+              </h2>
+              <p class="banner-item--subtitle">
+                Блюда из любимого ресторана привезет курьер в перчатках, маске и
+                с антисептиком
+              </p>
             </div>
-        </footer>
+          </div>
+        </section>
+
+        <section class="products">
+          <div class="container">
+            <div class="products-header">
+              <h3 class="products-header--title">Рестораны</h3>
+              <input
+                placeholder="Поиск блюд и ресторанов"
+                class="products-header--search"
+                type="text"
+              />
+            </div>
+
+            <div class="products-wrapper">
+              <a href="/tanuki.html" class="products-card">
+                <div class="products-card__img">
+                  <img src="assets/image.jpg" alt="rest-1" />
+                </div>
+                <div class="products-card__description">
+                  <div class="products-card__description--row">
+                    <h4 class="products-card__description--title">
+                      Пицца плюс
+                    </h4>
+                    <div class="products-card__description--badge">50 мин</div>
+                  </div>
+                  <div class="products-card__description--row">
+                    <div class="products-card__description--info">
+                      <div class="products-card__description--info--raiting">
+                        <img src="assets/star.svg" alt="star" />
+                        4.5
+                      </div>
+                      <div class="products-card__description--info--price">
+                        От 900 ₽
+                      </div>
+                      <div class="products-card__description--info--group">
+                        Пицца
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+
+              <div class="products-card">
+                <div class="products-card__img">
+                  <img src="assets/image1.jpg" alt="rest-2" />
+                </div>
+                <div class="products-card__description">
+                  <div class="products-card__description--row">
+                    <h4 class="products-card__description--title">Тануки</h4>
+                    <div class="products-card__description--badge">45 мин</div>
+                  </div>
+                  <div class="products-card__description--row">
+                    <div class="products-card__description--info">
+                      <div class="products-card__description--info--raiting">
+                        <img src="assets/star.svg" alt="star" />
+                        4.2
+                      </div>
+                      <div class="products-card__description--info--price">
+                        От 400 ₽
+                      </div>
+                      <div class="products-card__description--info--group">
+                        Пицца и суши
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="products-card">
+                <div class="products-card__img">
+                  <img src="assets/image2.jpg" alt="rest-3" />
+                </div>
+                <div class="products-card__description">
+                  <div class="products-card__description--row">
+                    <h4 class="products-card__description--title">FoodBand</h4>
+                    <div class="products-card__description--badge">55 мин</div>
+                  </div>
+                  <div class="products-card__description--row">
+                    <div class="products-card__description--info">
+                      <div class="products-card__description--info--raiting">
+                        <img src="assets/star.svg" alt="star" />
+                        4.0
+                      </div>
+                      <div class="products-card__description--info--price">
+                        От 600 ₽
+                      </div>
+                      <div class="products-card__description--info--group">
+                        Пицца и суши
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="products-card">
+                <div class="products-card__img">
+                  <img src="assets/image3.jpg" alt="rest-4" />
+                </div>
+                <div class="products-card__description">
+                  <div class="products-card__description--row">
+                    <h4 class="products-card__description--title">
+                      Жадина-пицца
+                    </h4>
+                    <div class="products-card__description--badge">60 мин</div>
+                  </div>
+                  <div class="products-card__description--row">
+                    <div class="products-card__description--info">
+                      <div class="products-card__description--info--raiting">
+                        <img src="assets/star.svg" alt="star" />
+                        4.9
+                      </div>
+                      <div class="products-card__description--info--price">
+                        От 1100 ₽
+                      </div>
+                      <div class="products-card__description--info--group">
+                        Пицца и суши
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="products-card">
+                <div class="products-card__img">
+                  <img src="assets/image4.jpg" alt="rest-5" />
+                </div>
+                <div class="products-card__description">
+                  <div class="products-card__description--row">
+                    <h4 class="products-card__description--title">Точка еды</h4>
+                    <div class="products-card__description--badge">30 мин</div>
+                  </div>
+                  <div class="products-card__description--row">
+                    <div class="products-card__description--info">
+                      <div class="products-card__description--info--raiting">
+                        <img src="assets/star.svg" alt="star" />
+                        3.2
+                      </div>
+                      <div class="products-card__description--info--price">
+                        От 300 ₽
+                      </div>
+                      <div class="products-card__description--info--group">
+                        Пицца и суши
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="products-card">
+                <div class="products-card__img">
+                  <img src="assets/image5.jpg" alt="rest-6" />
+                </div>
+                <div class="products-card__description">
+                  <div class="products-card__description--row">
+                    <h4 class="products-card__description--title">
+                      PizzaBurger
+                    </h4>
+                    <div class="products-card__description--badge">25 мин</div>
+                  </div>
+                  <div class="products-card__description--row">
+                    <div class="products-card__description--info">
+                      <div class="products-card__description--info--raiting">
+                        <img src="assets/star.svg" alt="star" />
+                        3.8
+                      </div>
+                      <div class="products-card__description--info--price">
+                        От 200 ₽
+                      </div>
+                      <div class="products-card__description--info--group">
+                        Пицца и бургеры
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <div class="cart-modal__overlay">
+        <div class="cart-modal">
+          <div class="cart-modal__header">
+            <h2 class="cart-modal__header--title">Корзина</h2>
+            <span class="cart-modal__header--close">
+              <img src="assets/Close.svg" alt="close" />
+            </span>
+          </div>
+
+          <div class="cart-modal__body">
+            <div class="cart-item">
+              <p class="cart-item__title">Ролл угорь стандарт</p>
+              <div class="cart-item__controls">
+                <div class="cart-item__controls--price">250 ₽</div>
+
+                <button class="btn btn-outline">-</button>
+                <div class="cart-item__controls--count">1</div>
+                <button class="btn btn-outline">+</button>
+              </div>
+            </div>
+            <div class="cart-item">
+              <p class="cart-item__title">Ролл угорь стандарт</p>
+              <div class="cart-item__controls">
+                <div class="cart-item__controls--price">250 ₽</div>
+
+                <button class="btn btn-outline">-</button>
+                <div class="cart-item__controls--count">1</div>
+                <button class="btn btn-outline">+</button>
+              </div>
+            </div>
+            <div class="cart-item">
+              <p class="cart-item__title">Ролл угорь стандарт</p>
+              <div class="cart-item__controls">
+                <div class="cart-item__controls--price">250 ₽</div>
+
+                <button class="btn btn-outline">-</button>
+                <div class="cart-item__controls--count">1</div>
+                <button class="btn btn-outline">+</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="cart-modal__footer">
+            <div class="cart-modal__footer--price">1250 ₽</div>
+            <div class="cart-modal__footer--conrols">
+              <button class="btn btn-primary">Оформить заказ</button>
+              <button class="btn btn-outline">Отмена</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="footer-box">
+            <div class="footer-logo logo">
+              <img src="assets/logo.png" alt="logo" />
+            </div>
+            <div class="footer-nav">
+              <ul>
+                <li>Ресторанам</li>
+                <li>Курьерам</li>
+                <li>Пресс-центр</li>
+                <li>Контакты</li>
+              </ul>
+            </div>
+            <div class="footer-social">
+              <img src="assets/Group 1.png" alt="INST" />
+              <img src="assets/Group 2.png" alt="FB" />
+              <img src="assets/Group 3.png" alt="VK" />
+            </div>
+          </div>
+        </div>
+      </footer>
     </div>
 
     <script href="js/main.js"></script>
-</body>
+  </body>
 </html>
